@@ -386,3 +386,745 @@ Processing by HomepageController#index as HTML
 Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.0ms | Allocations: 15344)
 
 
+Started GET "/%PUBLIC_URL%/manifest.json" for ::1 at 2019-09-11 10:07:25 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/%PUBLIC_URL%/manifest.json"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+/home/sashie_dashie/.bundle/ruby/2.5.0/webpacker-d0fa1d1351bf/lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%PUBLIC_URL%/manifest.json" for ::1 at 2019-09-11 10:11:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%PUBLIC_URL%/manifest.json"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+/home/sashie_dashie/.bundle/ruby/2.5.0/webpacker-d0fa1d1351bf/lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%PUBLIC_URL%/manifest.json" for ::1 at 2019-09-11 10:21:49 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/%PUBLIC_URL%/manifest.json"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+/home/sashie_dashie/.bundle/ruby/2.5.0/webpacker-d0fa1d1351bf/lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%PUBLIC_URL%/manifest.json" for ::1 at 2019-09-11 10:29:08 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/%PUBLIC_URL%/manifest.json"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+/home/sashie_dashie/.bundle/ruby/2.5.0/webpacker-d0fa1d1351bf/lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%PUBLIC_URL%/manifest.json" for ::1 at 2019-09-11 10:31:08 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%PUBLIC_URL%/manifest.json"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+/home/sashie_dashie/.bundle/ruby/2.5.0/webpacker-d0fa1d1351bf/lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%PUBLIC_URL%/manifest.json" for ::1 at 2019-09-11 10:31:16 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%PUBLIC_URL%/manifest.json"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+/home/sashie_dashie/.bundle/ruby/2.5.0/webpacker-d0fa1d1351bf/lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%PUBLIC_URL%/manifest.json" for ::1 at 2019-09-11 10:31:16 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%PUBLIC_URL%/manifest.json"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+/home/sashie_dashie/.bundle/ruby/2.5.0/webpacker-d0fa1d1351bf/lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-09-11 10:33:26 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 19605ms (Views: 19573.0ms | ActiveRecord: 0.0ms | Allocations: 15157)
+
+
+Started GET "/" for ::1 at 2019-09-11 10:34:02 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms | Allocations: 13849)
+
+
+Started GET "/" for ::1 at 2019-09-11 10:34:04 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 50.3ms | ActiveRecord: 0.0ms | Allocations: 13858)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:29:12 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 86866ms (Views: 86593.7ms | ActiveRecord: 0.0ms | Allocations: 15319)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:35:09 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 287396ms (Views: 287395.3ms | ActiveRecord: 0.0ms | Allocations: 15838)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:41:50 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 38995ms (Views: 38994.0ms | ActiveRecord: 0.0ms | Allocations: 15203)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:43:38 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 6316ms (Views: 6315.0ms | ActiveRecord: 0.0ms | Allocations: 15114)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:49:33 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 48.7ms | ActiveRecord: 0.0ms | Allocations: 13859)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:49:36 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 13862)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:53:31 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 51.7ms | ActiveRecord: 0.0ms | Allocations: 13857)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:53:59 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms | Allocations: 13861)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:54:00 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 53.2ms | ActiveRecord: 0.0ms | Allocations: 13857)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:54:03 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.0ms | Allocations: 13858)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:58:54 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 737cd8c96f2cef5335e8
+Version: webpack 4.39.3
+Time: 677ms
+Built at: 09/11/2019 11:58:58 AM
+                                     Asset       Size       Chunks             Chunk Names
+    js/application-2181adcc3224cdc0c9c1.js   4.72 KiB  application  [emitted]  application
+js/application-2181adcc3224cdc0c9c1.js.map    4.5 KiB  application  [emitted]  application
+    js/hello_react-089773dd026fb38d2147.js   8.28 KiB  hello_react  [emitted]  hello_react
+js/hello_react-089773dd026fb38d2147.js.map   3.53 KiB  hello_react  [emitted]  hello_react
+                             manifest.json  703 bytes               [emitted]  
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint hello_react = js/hello_react-089773dd026fb38d2147.js js/hello_react-089773dd026fb38d2147.js.map
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 4.38 KiB {hello_react} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/hello_react.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/sashie_dashie/projects/alignment_assignment/app/javascript/packs/hello_react.jsx: super() is only valid inside a class constructor of a subclass. Maybe a typo in the method name ('constructor') or not extending another class? (34:4)
+
+  32 | class App  {
+  33 |   constructor(props) {
+> 34 |     super(props);
+     |     ^
+  35 |     this.state = {
+  36 |       hits: [],
+  37 |     };
+    at Object.raise (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:6387:17)
+    at Object.parseExprAtom (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8738:16)
+    at Object.parseExprAtom (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:3609:20)
+    at Object.parseExprSubscripts (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8483:23)
+    at Object.parseMaybeUnary (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8463:21)
+    at Object.parseExprOps (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8329:23)
+    at Object.parseMaybeConditional (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8302:23)
+    at Object.parseMaybeAssign (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8249:21)
+    at Object.parseExpression (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8197:23)
+    at Object.parseStatementContent (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10029:23)
+    at Object.parseStatement (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9900:17)
+    at Object.parseBlockOrModuleBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10476:25)
+    at Object.parseBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10463:10)
+    at Object.parseBlock (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10447:10)
+    at Object.parseFunctionBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9495:24)
+    at Object.parseFunctionBodyAndFinish (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9465:10)
+    at Object.parseMethod (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9419:10)
+    at Object.pushClassMethod (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10875:30)
+    at Object.parseClassMemberWithIsStatic (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10800:12)
+    at Object.parseClassMember (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10739:10)
+    at withTopicForbiddingContext (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10694:14)
+    at Object.withTopicForbiddingContext (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9773:14)
+    at Object.parseClassBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10671:10)
+    at Object.parseClass (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10645:22)
+    at Object.parseStatementContent (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9942:21)
+    at Object.parseStatement (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9900:17)
+    at Object.parseBlockOrModuleBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10476:25)
+    at Object.parseBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10463:10)
+    at Object.parseTopLevel (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9829:10)
+    at Object.parse (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:11341:17)
+
+Completed 200 OK in 4103ms (Views: 4101.9ms | ActiveRecord: 0.0ms | Allocations: 15019)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:59:08 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms | Allocations: 13857)
+
+
+Started GET "/" for ::1 at 2019-09-11 11:59:14 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5934ms (Views: 5932.8ms | ActiveRecord: 0.0ms | Allocations: 15114)
+
+
+Started GET "/" for ::1 at 2019-09-11 12:00:38 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2019-09-11 12:00:41 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 24711ms (Views: 24709.9ms | ActiveRecord: 0.0ms | Allocations: 32376)
+
+
+Completed 200 OK in 22034ms (Views: 22030.2ms | ActiveRecord: 0.0ms | Allocations: 17021)
+
+
+Started GET "/" for ::1 at 2019-09-11 12:04:00 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 7215ms (Views: 7213.8ms | ActiveRecord: 0.0ms | Allocations: 15111)
+
+
+Started GET "/" for ::1 at 2019-09-11 12:05:06 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5684ms (Views: 5682.9ms | ActiveRecord: 0.0ms | Allocations: 15112)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:03:01 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 6001ms (Views: 5999.9ms | ActiveRecord: 0.0ms | Allocations: 15112)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:06:17 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5978ms (Views: 5976.9ms | ActiveRecord: 0.0ms | Allocations: 15104)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:11:06 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 6dd0da31f523d5c79fd9
+Version: webpack 4.39.3
+Time: 682ms
+Built at: 09/11/2019 2:11:10 PM
+                                     Asset       Size       Chunks             Chunk Names
+    js/application-2181adcc3224cdc0c9c1.js   4.72 KiB  application  [emitted]  application
+js/application-2181adcc3224cdc0c9c1.js.map    4.5 KiB  application  [emitted]  application
+    js/hello_react-f0be213dd91a16f95e4f.js   6.87 KiB  hello_react  [emitted]  hello_react
+js/hello_react-f0be213dd91a16f95e4f.js.map   3.53 KiB  hello_react  [emitted]  hello_react
+                             manifest.json  703 bytes               [emitted]  
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint hello_react = js/hello_react-f0be213dd91a16f95e4f.js js/hello_react-f0be213dd91a16f95e4f.js.map
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 2.97 KiB {hello_react} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/hello_react.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/sashie_dashie/projects/alignment_assignment/app/javascript/packs/hello_react.jsx: Unexpected token (61:7)
+
+  59 | }
+  60 | 
+> 61 | export default App;
+     |        ^
+    at Object.raise (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:6387:17)
+    at Object.unexpected (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:7704:16)
+    at Object.parseClassMemberWithIsStatic (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10843:12)
+    at Object.parseClassMember (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10739:10)
+    at withTopicForbiddingContext (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10694:14)
+    at Object.withTopicForbiddingContext (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9773:14)
+    at Object.parseClassBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10671:10)
+    at Object.parseClass (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10645:22)
+    at Object.parseStatementContent (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9942:21)
+    at Object.parseStatement (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9900:17)
+    at Object.parseBlockOrModuleBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10476:25)
+    at Object.parseBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10463:10)
+    at Object.parseTopLevel (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9829:10)
+    at Object.parse (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:11341:17)
+    at parse (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:11377:38)
+    at parser (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transformation/normalize-file.js:166:34)
+    at normalizeFile (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transformation/normalize-file.js:100:11)
+    at runSync (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transformation/index.js:44:43)
+    at runAsync (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transformation/index.js:35:14)
+    at process.nextTick (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transform.js:34:34)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+Completed 200 OK in 3731ms (Views: 3730.1ms | ActiveRecord: 0.0ms | Allocations: 15007)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:11:53 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5718ms (Views: 5716.8ms | ActiveRecord: 0.0ms | Allocations: 15106)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:13:28 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5645ms (Views: 5643.5ms | ActiveRecord: 0.0ms | Allocations: 15102)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:19:04 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 17421ms (Views: 17420.5ms | ActiveRecord: 0.0ms | Allocations: 15137)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:20:13 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5529ms (Views: 5528.1ms | ActiveRecord: 0.0ms | Allocations: 15106)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:21:15 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5595ms (Views: 5594.1ms | ActiveRecord: 0.0ms | Allocations: 15106)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:23:28 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5568ms (Views: 5567.6ms | ActiveRecord: 0.0ms | Allocations: 15138)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:25:18 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5650ms (Views: 5648.8ms | ActiveRecord: 0.0ms | Allocations: 15110)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:46:27 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5202ms (Views: 5201.1ms | ActiveRecord: 0.0ms | Allocations: 15112)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:46:32 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms | Allocations: 17160)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:47:08 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms | Allocations: 13854)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:47:41 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5439ms (Views: 5438.0ms | ActiveRecord: 0.0ms | Allocations: 15107)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:49:27 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 9e79eed79f72700457a0
+Version: webpack 4.39.3
+Time: 607ms
+Built at: 09/11/2019 2:49:30 PM
+                                     Asset       Size       Chunks             Chunk Names
+    js/application-2181adcc3224cdc0c9c1.js   4.72 KiB  application  [emitted]  application
+js/application-2181adcc3224cdc0c9c1.js.map    4.5 KiB  application  [emitted]  application
+    js/hello_react-e49d64ab54326d3fa16e.js   7.75 KiB  hello_react  [emitted]  hello_react
+js/hello_react-e49d64ab54326d3fa16e.js.map   3.53 KiB  hello_react  [emitted]  hello_react
+                             manifest.json  703 bytes               [emitted]  
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint hello_react = js/hello_react-e49d64ab54326d3fa16e.js js/hello_react-e49d64ab54326d3fa16e.js.map
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 3.85 KiB {hello_react} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/hello_react.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/sashie_dashie/projects/alignment_assignment/app/javascript/packs/hello_react.jsx: super is only allowed in object methods and classes (36:4)
+
+  34 | 
+  35 |   constructor(props); {
+> 36 |     super(props);
+     |     ^
+  37 |     this.state = {
+  38 |       hits: [],
+  39 |     };
+    at Object.raise (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:6387:17)
+    at Object.parseExprAtom (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8731:16)
+    at Object.parseExprAtom (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:3609:20)
+    at Object.parseExprSubscripts (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8483:23)
+    at Object.parseMaybeUnary (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8463:21)
+    at Object.parseExprOps (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8329:23)
+    at Object.parseMaybeConditional (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8302:23)
+    at Object.parseMaybeAssign (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8249:21)
+    at Object.parseExpression (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:8197:23)
+    at Object.parseStatementContent (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10029:23)
+    at Object.parseStatement (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9900:17)
+    at Object.parseBlockOrModuleBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10476:25)
+    at Object.parseBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10463:10)
+    at Object.parseBlock (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10447:10)
+    at Object.parseStatementContent (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9976:21)
+    at Object.parseStatement (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9900:17)
+    at Object.parseBlockOrModuleBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10476:25)
+    at Object.parseBlockBody (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:10463:10)
+    at Object.parseTopLevel (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:9829:10)
+    at Object.parse (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:11341:17)
+    at parse (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/parser/lib/index.js:11377:38)
+    at parser (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transformation/normalize-file.js:166:34)
+    at normalizeFile (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transformation/normalize-file.js:100:11)
+    at runSync (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transformation/index.js:44:43)
+    at runAsync (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transformation/index.js:35:14)
+    at process.nextTick (/home/sashie_dashie/projects/alignment_assignment/node_modules/@babel/core/lib/transform.js:34:34)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+Completed 200 OK in 3499ms (Views: 3497.9ms | ActiveRecord: 0.0ms | Allocations: 15010)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:52:17 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5586ms (Views: 5584.9ms | ActiveRecord: 0.0ms | Allocations: 15148)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:52:55 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sashie_dashie/projects/alignment_assignment/public/packs
+Completed 200 OK in 5705ms (Views: 5704.3ms | ActiveRecord: 0.0ms | Allocations: 15147)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:56:33 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.0ms | Allocations: 13882)
+
+
+Started GET "/" for ::1 at 2019-09-11 14:59:37 -0400
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms | Allocations: 13882)
+
+
