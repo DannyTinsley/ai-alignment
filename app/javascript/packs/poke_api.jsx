@@ -25,7 +25,8 @@ const Hello = props => (
   
   
 
-const API = 'http://pokeapi.co/api/v2/pokemon/?limit=100';
+const API = 'legislation.nysenate.gov/api/3/bills/2015/S1?key=DWeaFgwg1yD7he6DFabCAPKmyY5uJ504';
+const SEARCH_BY_SENATOR = 'legislation.nysenate.gov/api/3/bills/search?term=sponsor.member.shortName:BRESLIN&sort=status.actionDate:DESC';
 // const DEFAULT_QUERY = 'redux';
 
 class App extends Component {
@@ -41,34 +42,17 @@ class App extends Component {
       .then(data => this.setState({ hits: data.hits }));
     const { hits } = this.state;
     
-    // document.addEventListener('DOMContentLoaded', () => {
-    //   ReactDOM.render()
-      return (
-        <div>
-          <ul>
-          {hits.map(hit =>
-          // <li> <Text>Name: </Text> {hit.name}</li>
-          // <li>
-          //     <a href = {hit.url}><Text>Link: </Text>{hit.url}</a>
-          // </li>
-
-          {makeList(this.API.name)},
-          // {makeList(this.API.url)}
-
-          )
+    return (
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Steve Jobs</h5>
+            <h6 class="card-subtitle mb-2 text-muted">steve@apple.com</h6>
+            <p class="card-text">Stay Hungry, Stay Foolish</p>
+          </div>
+        </div>
+      );
       }
-       </ul>
-       </div>
-      // <ul>
-      //   {hits.map(hit =>
-      //     <li key={hit.objectID}>
-      //       <a href={hit.url}>{hit.title}</a>
-      //     </li>
-      //   )}
-      // </ul>
-    );
-  // })
-}
+      
 }
 
 export default App;

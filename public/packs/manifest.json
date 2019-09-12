@@ -20,15 +20,15 @@
     },
     "poke_api": {
       "js": [
-        "/packs/js/poke_api-f84b8d5638706312a938.js"
+        "/packs/js/poke_api-482c2dc396435a6c0f8a.js"
       ],
       "js.map": [
-        "/packs/js/poke_api-f84b8d5638706312a938.js.map"
+        "/packs/js/poke_api-482c2dc396435a6c0f8a.js.map"
       ]
     }
   },
   "hello_react.js": "/packs/js/hello_react-f835240fb19a5139f385.js",
   "hello_react.js.map": "/packs/js/hello_react-f835240fb19a5139f385.js.map",
-  "poke_api.js": "/packs/js/poke_api-f84b8d5638706312a938.js",
-  "poke_api.js.map": "/packs/js/poke_api-f84b8d5638706312a938.js.map"
+  "poke_api.js": "/packs/js/poke_api-482c2dc396435a6c0f8a.js",
+  "poke_api.js.map": "/packs/js/poke_api-482c2dc396435a6c0f8a.js.map"
 }
