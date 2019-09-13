@@ -37,6 +37,12 @@ ul.header li a {
 .homepageBody {
   margin: 20px;
 }
+
+.Search{
+  float: right;
+  padding: 10px;
+  margin: 3px;
+}
 .active {
   background-color: rgb(172, 100, 162);
 }

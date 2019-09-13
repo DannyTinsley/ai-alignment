@@ -1,30 +1,3 @@
-// import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 
 import React, { Component } from "react";
 import {
@@ -44,7 +17,13 @@ export function showAPI(){
   console.log('Hello World!');
 };
 
+const API_KEY = process.env.REACT_APP_TOOLS_API_KEY;
+
+console.log("API", API_KEY);
+
+
 class App extends Component {
+
   render() {
     return (
       
@@ -55,6 +34,8 @@ class App extends Component {
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/bills">Senate Bills</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
+            <input type="text" onChange={this.handleChange} className="input Search" placeholder="Search..." />
+
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
@@ -66,73 +47,51 @@ class App extends Component {
         
     );
   }
-   // State will apply to the posts object which is set to loading by default
-//    state = {
-//     posts: [],
-//     isLoading: true,
-//     errors: null
-//   };
-//   // Now we're going to make a request for data using axios
-//   getPosts() {
-//     axios
-//       // This is where the data is hosted
-//       .get("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/posts.json")
-//       // Once we get a response and store data, let's change the loading state
-//       .then(response => {
-//         this.setState({
-//           posts: response.data.posts,
-//           isLoading: false
-//         });
-//       })
-//       // If we catch any errors connecting, let's update accordingly
-//       .catch(error => this.setState({ error, isLoading: false }));
-//   }
-//   // Let's our app know we're ready to render the data
-//   componentDidMount() {
-//     this.getPosts();
-//   }
-//   // Putting that data to use
-//   render() {
-//     const { isLoading, posts } = this.state;
-//     return (
 
-//       <HashRouter>
-//       <div>
-//        <h1>Alignment Assignment</h1>
-//        <ul className="header">
-//          <li><NavLink exact to="/">Home</NavLink></li>
-//          <li><NavLink to="/bills">Senate Bills</NavLink></li>
-//          <li><NavLink to="/contact">Contact</NavLink></li>
-//        </ul>
-//        <div className="content">
-//          <Route exact path="/" component={Home}/>
-//          <Route path="/bills" component={Bills}/>
-//          <Route path="/contact" component={Contact}/>
-//        </div>
-//      </div>
-//      </HashRouter>
-      
-//       <React.Fragment>
-//         <h2>Random Post</h2>
-//         <div>
-//           {!isLoading ? (
-//             posts.map(post => {
-//               const { _id, title, content } = post;
-//               return (
-//                 <div key={_id}>
-//                   <h2>{title}</h2>
-//                   <p>{content}</p>
-//                   <hr />
-//                 </div>
-//               );
-//             })
-//           ) : (
-//             <p>Loading...</p>
-//           )}
-//         </div>
-//       </React.Fragment>
-//     );
-//   }
+  componentDidMount() {
+    this.setState({
+      filtered: this.props.items
+    });
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      filtered: nextProps.items
+    });
+  }
+
+  handleChange(e) {
+    // Variable to hold the original version of the list
+let currentList = [];
+    // Variable to hold the filtered list before putting into state
+let newList = [];
+
+    // If the search bar isn't empty
+if (e.target.value !== "") {
+        // Assign the original list to currentList
+  currentList = this.props.items;
+
+        // Use .filter() to determine which items should be displayed
+        // based on the search terms
+  newList = currentList.filter(item => {
+            // change current item to lowercase
+    const lc = item.toLowerCase();
+            // change search term to lowercase
+    const filter = e.target.value.toLowerCase();
+            // check to see if the current list item includes the search term
+            // If it does, it will be added to newList. Using lowercase eliminates
+            // issues with capitalization in search terms and search content
+    return lc.includes(filter);
+  });
+} else {
+        // If the search bar is empty, set newList to original task list
+  newList = this.props.items;
+}
+    // Set the filtered state based on what our rules added to newList
+this.setState({
+  filtered: newList
+});
+}
 }
 
 export function showHelloReact() {
