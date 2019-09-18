@@ -51,6 +51,8 @@ class App extends Component {
     );
   }
 
+  
+
   componentDidMount() {
     this.setState({
       filtered: this.props.items
