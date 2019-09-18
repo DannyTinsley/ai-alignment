@@ -1,0 +1,48 @@
+body {
+
+  padding: 20px;
+  margin: 50px;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.homepageBody {
+  margin: 20px;
+}
+
+.Search{
+  float: right;
+  padding: 10px;
+  margin: 3px;
+}
+.active {
+  background-color: rgb(172, 100, 162);
+}
